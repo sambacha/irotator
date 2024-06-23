@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My website</title>
+    <link>http://localhost:3030/posts/</link>
+    <description>Recent content in Posts on My website</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Sep 2022 09:28:13 -0800</lastBuildDate>
+    <atom:link href="http://localhost:3030/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Supporting Fundamental Innovation</title>
+      <link>http://localhost:3030/posts/supporting-fundamental-innovation/</link>
+      <pubDate>Mon, 12 Sep 2022 09:28:13 -0800</pubDate>
+      <guid>http://localhost:3030/posts/supporting-fundamental-innovation/</guid>
+      <description>Supporting Fundamental Innovation Most of the funding of research efforts I&amp;rsquo;ve been involved in since ARPA-Parc have been with various profit making companies &amp;ndash; Atari, Apple, Disney, HP, SAP, Infosys, etc. And there have been various kinds of compromises involved. And some good work on smaller scales did get done. Others of my colleagues in the diaspora that started in the early 80s wound up at Microsoft, DEC, IBM, Bell Labs, etc.</description>
+    </item>
+    <item>
+      <title>You and Your Research</title>
+      <link>http://localhost:3030/posts/you-and-your-research/</link>
+      <pubDate>Sat, 10 Sep 2022 09:28:13 -0800</pubDate>
+      <guid>http://localhost:3030/posts/you-and-your-research/</guid>
+      <description>You and Your Research At a seminar in the Bell Communications Research Colloquia Series, Dr. Richard W. Hamming, a Professor at the Naval Postgraduate School in Monterey, California and a retired Bell Labs scientist, gave a very interesting and stimulating talk, `You and Your Research&amp;rsquo; to an overflow audience of some 200 Bellcore staff members and visitors at the Morris Research and Engineering Center on March 7, 1986. This talk centered on Hamming&amp;rsquo;s observations and research on the question “Why do so few scientists make significant contributions and so many are forgotten in the long run?</description>
+    </item>
+    <item>
+      <title>Problems_Are_hard</title>
+      <link>http://localhost:3030/posts/problems_are_hard/</link>
+      <pubDate>Wed, 10 Nov 2021 09:28:13 -0800</pubDate>
+      <guid>http://localhost:3030/posts/problems_are_hard/</guid>
+      <description>All Problems Are Hard Aren’t all problems hard?&#xA;Say a customer reports a bug, and you’ve got to fix it. You can fix it. You know you can fix it. Maybe it’ll take an hour, maybe it’ll take a day, maybe a week. But you’ll narrow it down, figure out the smallest possible increment of work you can do to remedy the problem, and then you’ll do it. And as much as it pains me to say it, because I want to be able to check that box that said I did the thing… this is the easy part.</description>
+    </item>
+    <item>
+      <title>Math in Solidity</title>
+      <link>http://localhost:3030/posts/math-in-solidity/</link>
+      <pubDate>Fri, 10 Sep 2021 16:30:31 -0700</pubDate>
+      <guid>http://localhost:3030/posts/math-in-solidity/</guid>
+      <description>Solidity is an object-oriented, high-level language for implementing smart contracts. Smart contracts are programs which govern the behaviour of accounts within the Ethereum state.</description>
+    </item>
+    <item>
+      <title>The Game Theory of Money, Part 1</title>
+      <link>http://localhost:3030/posts/intro-to-blog/</link>
+      <pubDate>Fri, 10 Sep 2021 16:04:52 -0700</pubDate>
+      <guid>http://localhost:3030/posts/intro-to-blog/</guid>
+      <description>The Game Theory of Money, Part 1 By John Law—May 20, 2006, 12:00 AM CDT [The title of the original article has been updated and the introduction has been condensed per John Law&amp;rsquo;s request. —ed.]&#xA;[TOC]&#xA;The first rule of investing is that it&amp;rsquo;s never a good idea to buy anything just because everyone else is buying it. When the price of an asset is the result of herd behavior, not fundamental value, it&amp;rsquo;s called a &amp;ldquo;bubble,&amp;rdquo; and bubbles always pop.</description>
+    </item>
+  </channel>
+</rss>
