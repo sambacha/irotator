@@ -6,6 +6,8 @@
 {{- else -}}
 <meta name="description" content="{{ .Params.Description }}" />
 {{- end }}
+{{- partial "favicon.html" . -}}
+<link rel="stylesheet" href="/css/syntax.css">
 
 <title>
     {{ if .IsHome }}
@@ -15,8 +17,13 @@
     {{ end }}
 </title>
 
-{{ partialCached "head/css.html" . }}
+
+<!-- {{ partialCached "head/css.html" . }} -->
+
 {{ partialCached "head/js.html" . }}
+
+{{- partial "seo_tags.html" . -}}
+<meta name="referrer" content="no-referrer-when-downgrade" />
 
 {{ if hugo.IsProduction }}
 {{ template "_internal/google_analytics.html" . }}

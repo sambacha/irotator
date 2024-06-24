@@ -9,10 +9,20 @@ tag = 'tags'
 # Google analytics code
 googleAnalytics = "G-xxxxxxxxx"
 
+pygmentsUseClasses = true
+pygmentsCodefences = true
+
+
+[sitemap]
+  changeFreq = ''
+  disable = false
+  filename = 'sitemap.xml'
+  priority = -1
+
 [params]
 # Meta description
-description = "A Tech Blog"
-
+  description = "Dear Diary"
+  math = true
 # Appearance settings
 theme = 'auto'
 
@@ -63,15 +73,53 @@ url = "/about"
 
 # Syntax highligth on code blocks
 [markup]
-[markup.highlight]
-style = 'algol'
+  defaultMarkdownHandler = 'goldmark'
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      linkifyProtocol = 'https'
+      strikethrough = true
+      table = true
+      taskList = true
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
+  [markup.highlight]
+      anchorLineNos = false
+      codeFences = true
+      guessSyntax = false
+      hl_Lines = ''
+      hl_inline = false
+      lineAnchors = ''
+      lineNoStart = 1
+      lineNos = false
+      lineNumbersInTable = true
+      noClasses = true
+      noHl = false
+      style = 'xcode-dark'
+      tabWidth = 2
 
 # Giscus comments
 [params.giscus]
 enable = false
-repo = "user/repo"
-repoid = "repoId"
-category = "General"
-categoryid = "categoryId"
-mapping = "pathname"
-theme = "preferred_color_scheme"
+
+
+[build]
+  noJSConfigInAssets = false
+  useResourceCacheWhen = 'fallback'
+  [build.buildStats]
+    disableClasses = false
+    disableIDs = false
+    disableTags = false
+    enable = false
+  [[build.cacheBusters]]
+    source = '(postcss|tailwind)\.config\.js'
+    target = '(css|styles|scss|sass)'
